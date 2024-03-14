@@ -1,0 +1,35 @@
+.intro {
+  background-color: #2a2c2f;
+  color: #fff;
+}
+
+.intro__content {
+  margin: 0 148px;
+}
+
+.intro__title {
+  margin: 0;
+  padding: 0 0 40px;
+}
+
+.quote {
+  margin: 0;
+}
+
+.quote__text {
+  margin: 0;
+}
+
+.quote__author {
+  margin: 0;
+}
+
+.intro__paragraph {
+  max-width: 722px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
