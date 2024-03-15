@@ -1,0 +1,18 @@
+.photo__grid {
+  display: flex;
+  justify-content: center;
+  background-color: #2a2c2f;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 0 92px;
+}
+
+.photo__grid_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 16px;
+}
+
+.photo__item {
+}
