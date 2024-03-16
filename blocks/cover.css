@@ -81,11 +81,38 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .cover {
-    padding-bottom: 88px;
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin: 0;
   }
+
+  .cover__bg {
+    margin-bottom: 88px;
+  }
+
+  .cover__content {
+    padding: 246px 56px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    padding-bottom: 0;
+  }
+
+  .footer__wrapper-title-paragraphs-and-button {
+    padding: 46px 16px;
+  }
+
   .cover__title {
-    width: max-content;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 16px;
+  }
+
+  .cover__subtitle {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

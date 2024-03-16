@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: #2a2c2f;
   color: #fff;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 0 92px;
 }
 
@@ -17,11 +17,22 @@
 .photo__item {
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .photo__grid_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .photo__item {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 720px) {
   .photo__grid_content {
     max-width: 720px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
     gap: 16px;
   }
 }
