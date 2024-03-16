@@ -1,0 +1,11 @@
+.footer {
+  background-color: #2a2c2f;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.footer__paragraph {
+  text-align: center;
+  padding: 0 0 24px;
+  margin: 0;
+}
