@@ -16,3 +16,12 @@
 
 .photo__item {
 }
+
+@media (max-width: 768px) {
+  .photo__grid_content {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+}
