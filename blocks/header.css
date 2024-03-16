@@ -38,3 +38,13 @@
   margin: 0 auto;
   padding-bottom: 92px;
 }
+
+@media (max-width: 768px) {
+  .header__title {
+    max-width: 720px;
+  }
+
+  .header__image {
+    max-width: 768px;
+  }
+}

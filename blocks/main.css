@@ -1,6 +1,11 @@
-.intro {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #2a2c2f;
-  color: #fff;
+  color: white;
+  padding: 0 92px 148px;
 }
 
 .intro__content {
@@ -14,7 +19,7 @@
   max-width: 830px;
   margin: 0;
   padding: 0 0 40px;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
@@ -64,5 +69,11 @@
 @media (max-width: 768px) {
   .intro__title {
     max-width: 707px;
+  }
+  .quote__text {
+    max-width: 720px;
+  }
+  .intro__paragraph {
+    max-width: 720px;
   }
 }
