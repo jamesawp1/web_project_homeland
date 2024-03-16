@@ -120,3 +120,8 @@
   color: #fff;
   border: none;
 }
+
+.card__content_button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
