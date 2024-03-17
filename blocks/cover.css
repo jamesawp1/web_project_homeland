@@ -1,11 +1,10 @@
 .cover {
-  background-color: #2a2c2f;
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 92px 0;
+  padding: 0;
+  margin: 0;
 }
 
 .cover__bg {
@@ -27,9 +26,6 @@
 }
 
 .cover__content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
   row-gap: 32px;
   margin: 0;
@@ -43,21 +39,18 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
 .cover__subtitle {
   display: flex;
   flex-direction: column;
-  max-width: 280px;
   margin: 0;
   padding: 0;
   font-family: "Inter";
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
@@ -65,8 +58,7 @@
   margin: 0;
   padding: 0;
   background-color: #0278fe;
-  width: 191px;
-  height: 48px;
+
   margin: 0;
   padding: 0;
   border-radius: 4px;
@@ -79,6 +71,14 @@
 .cover__button:hover {
   background: #0063d2;
   cursor: pointer;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding: 0 0 24px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 @media screen and (max-width: 1024px) {
