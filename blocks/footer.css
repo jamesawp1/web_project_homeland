@@ -81,9 +81,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .footer__bg {
-  }
-
   .footer__content {
     padding: 246px 56px;
   }
