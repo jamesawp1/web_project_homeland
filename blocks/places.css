@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    gap: 24px;
+    gap: 72px;
   }
 
   .places__card {
@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 720px) {
   .places {
-    gap: 2px;
+    gap: 50px;
   }
 
   .places__card {
@@ -141,7 +141,6 @@
       "paragraph"
       "button";
     gap: 30px;
-    padding: 50px 0 0;
   }
 
   .places__title {
