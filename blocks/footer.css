@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/cover__background.jpg");
+    url("../images/footer__background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -23,7 +23,7 @@
 
 .footer__bg:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/cover__background.jpg");
+    url("../images/footer__background.jpg");
 }
 
 .footer__content {
@@ -65,6 +65,7 @@
   margin: 0;
   font-size: 18px;
   line-height: 21.78px;
+  text-decoration: none;
 }
 
 .footer__button:hover {
